@@ -93,7 +93,6 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   padding: 80px;
 }
 .hero-text h1 {
@@ -130,9 +129,7 @@ nav {
   width: 360px;
   height: 360px;
   border-radius: 10px;
-
   border: none;
-
   object-fit: cover;
 }
 
