@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <div class="nav-right">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="cv.pdf" download class="cv-btn">Download CV</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hii, I'm Rajendra</h1>
+      <p>I build websites, apps & unique digital experiences.</p>
+      <button>My Works</button>
+    </div>
+    <div class="hero-img">
+      <img src="" alt="">
+  </section>
+
+
+  <!-- Skills Section -->
+<section id="skills" class="skills">
+  <h2>My Skills</h2>
+  <div class="skills-container">
+    
+    <!-- Skill Card -->
+    <div class="skill-card">
+      <div class="circle" data-percent="90">90%</div>
+      <h3>HTML</h3>
+      <p>Strong in creating semantic and responsive layouts.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle" data-percent="80">80%</div>
+      <h3>CSS</h3>
+      <p>Good at styling, animations, and modern UI design.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle" data-percent="70">70%</div>
+      <h3>JavaScript</h3>
+      <p>Capable of building interactive and dynamic features.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle" data-percent="75">75%</div>
+      <h3>Python</h3>
+      <p>Experience in backend development and problem-solving.</p>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="slider">
+      <div class="slide active">
+        <img src="https://via.placeholder.com/400x250" alt="Project 1">
+        <h3>Project One</h3>
+        <p>Short description about project one.</p>
+      </div>
+      <div class="slide">
+        <img src="https://via.placeholder.com/400x250" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>Short description about project two.</p>
+      </div>
+      <div class="slide">
+        <img src="https://via.placeholder.com/400x250" alt="Project 3">
+        <h3>Project Three</h3>
+        <p>Short description about project three.</p>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
